@@ -1,0 +1,133 @@
+/* Importation de la police Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Styles généraux */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    height: 274px;
+    width: 274px;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Section titre et logo principal */
+.container h2 {
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.container img {
+    height: 500px;
+    width: 500px;
+}
+
+/* Styles des sections alternées texte et image */
+.row img {
+    width: 613px;
+    height: 1033px;
+}
+
+/* Styles pour les photos de l'équipe */
+.photo-id {
+    width: 303px;
+    height: 426px;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer img {
+    height: 274px;
+    width: 274px;
+}
+
+/* Styles responsives pour les écrans plus petits */
+@media (max-width: 768px) {
+    .navbar-brand img, .footer img {
+        height: 137px; /* Taille réduite pour les écrans plus petits */
+        width: 137px;
+    }
+
+    .container img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .row img {
+        width: 306px; /* Taille réduite pour les écrans plus petits */
+        height: 516px;
+    }
+
+    .photo-id {
+        width: 151px;
+        height: 213px;
+    }
+}
+
+p {
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 700;
+  
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.06000000089406967px;
+    line-height: 62px;
+    color: #ffffffff;
+  }
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* Force la couleur du texte à blanc */
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd !important; /* Couleur du texte au survol */
+}
+.navbar.bg-dark {
+    background-color: #000 !important; /* Noir pur */
+}
+
+.custom-logo-size {
+    width: 200px; /* ou toute autre largeur */
+    height: auto; /* pour conserver les proportions de l'image */
+}
+
+.custom-nav-item .nav-link {
+    font-size: 18px; 
+    padding: 10px 15px; 
+}
+
+.custom-img-size {
+    width: 100px; /* ou toute autre largeur */
+    height: auto; /* pour conserver les proportions de l'image */
+}
