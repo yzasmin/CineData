@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a1939;
+  color: white;
+  font-family: 'Poppins';
+}
+.part1{
+  background-image: linear-gradient(300deg, #757767 0, #3c3c40 50%, #01031d 100%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  
+}
+.next{
+  text-decoration: underline;
+}
+
+.logo img { 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.film-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+  
+
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+
+.film-section img {
+  width: 260px; 
+  margin-right: 20px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+
+  grid-column: 1 ;
+  grid-row: 1/4;
+  
+}
+
+.film-description {
+  color: white;
+  
+  margin-bottom: 80px;
+  margin-left: 50px;
+  grid-column: 2/4 ;
+  grid-row: 2/3 ;
+
+  
+}
+
+.film-description h2 {
+  margin-top: 0;
+  
+  
+  
+}
+.film-description p {
+margin-right: 200px;
+
+
+
+}
+.note {
+  color: white;
+  grid-column: 4;
+  grid-row: 1;
+  margin-top: 90px;
+
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.note img {
+  width: 30px;
+  align-items: center;
+  margin-left: 4px;
+  
+
+}
+.next{
+  text-decoration: underline;
+  grid-column: 4;
+  grid-row: 2;
+  margin-top: 190px;
+
+  
+  
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section-header {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 30px;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.section-header a {
+  color: white;
+  font-family: 'Poppins';
+  font-size: 20px ;
+}
+
+.section-header ul li {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+.section-similar {
+  grid-column: 2;
+  grid-row: 1;
+  text-decoration: underline;
+  justify-self: end;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.section-paragraph {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.section-images {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+}
+
+.section-images img {
+  width: 200px;
+  margin-bottom: 10px;
+   
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  width: 110px; 
+  margin-right: 20px; 
+  border-radius: 50%;
+}
+
+
+.image-container img:last-child {
+  margin-right: 0;
+}
+
+.acteur {
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+.acteur p {
+  margin-top: 5px; 
+  font-weight: bold; 
+}
+
+
+
+
+footer {
+    width: 100%; /* S'étend sur toute la largeur de la page */
+    border: 1px solid #000;
+	background: linear-gradient(270deg, #9F007C -3.01%, #00002B 26.59%, #00002B 50.4%, #00002B 68.81%);
+    color: white; /* Texte en blanc */
+    text-align: center; /* Centre le texte */
+  /* Rembourrage supérieur et inférieur */
+    z-index: 1000; /* S'assure que le footer reste au-dessus des autres éléments */
+ 	padding: 20px;
+    font-family: sans-serif;
+}
+.footer-links ul li a, 
+.footer-social p {
+    color: white;
+    text-decoration: none;
+    text-align: justify; /* Justifier le texte des liens et des paragraphes */
+}
+
+/* Vous pouvez aussi vouloir justifier les titres si nécessaire */
+.footer-links h4, 
+.footer-social h4 {
+    text-align: justify;
+}
+
+
+.footer-grid {
+    display: grid;
+    gap: 20px; /* Espacement entre les colonnes */
+
+    grid-template-columns: 3fr 1fr 1fr 2fr; /* Ajustez les proportions selon les besoins */
+   
+}
+
+/* Si les éléments sont flex containers, justifier le texte des enfants */
+.footer-links, .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligner les enfants à gauche pour permettre la justification */
+    
+}
+
+.footer-links *, .footer-social * {
+    text-align: justify;
+    align-items: flex-start;
+    color: #FFF;
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-logo, .footer-links, .footer-social {
+margin-top: 10px;
+    /* Styles pour les éléments du pied de page */
+}
+
+.footer-logo img {
+    width: 100px; /* Ajustez selon la taille de votre logo */
+}
+
+.footer-links h4, .footer-social h4 {
+    margin-bottom: 10px;
+    /* Styles pour les titres de section */
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligner le logo et le texte à gauche */
+    color: #FFF;
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 120% */
+}
+
+.footer-links ul, .footer-social p {
+    /* Styles pour les listes et les paragraphes */
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li a, .footer-social p {
+    /* Styles pour les liens et les paragraphes */
+    color: white;
+    text-decoration: none;
+    
+}
+.container p {
+   color: #BDB9B9;
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.24px;
+}
+
+/* Pour les écrans plus petits, ajustez la grille avec une requête média */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr; /* Deux colonnes sur les petits écrans */
+    }
+}
