@@ -45,8 +45,9 @@ body {
 
 /* Styles pour les photos de l'équipe */
 .photo-id {
-    width: 303px;
-    height: 426px;
+    width: 303px !important;
+    height: 426px !important;
+    flex-shrink: 0 !important;
 }
 
 /* Footer */
@@ -70,6 +71,12 @@ body {
     width: 274px;
 }
 
+.logocentre{
+    width: 426px !important;
+    height: 300px !important ;
+    flex-shrink: 0 !important;
+}
+
 /* Styles responsives pour les écrans plus petits */
 @media (max-width: 768px) {
     .navbar-brand img, .footer img {
@@ -88,8 +95,9 @@ body {
     }
 
     .photo-id {
-        width: 151px;
-        height: 213px;
+        width: 303px;
+        height: 426px;
+        flex-shrink: 0;
     }
 }
 
@@ -128,6 +136,7 @@ p {
 }
 
 .custom-img-size {
-    width: 100px; /* ou toute autre largeur */
-    height: auto; /* pour conserver les proportions de l'image */
+    width: 839px !important; 
+    height: 44px !important;
+    flex-shrink: 0 !important;
 }
