@@ -4,7 +4,7 @@
     <title>About Us - CINEDATA</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./stylesaboutus.css" />
 </head>
 <body>
     <!-- Barre de navigation -->
@@ -24,7 +24,7 @@
 
     <!-- Section Logo et Phrase -->
     <div class="container text-center my-5">
-        <img src="logocinedata.svg" alt="Logo" class="img-fluid">
+        <img src="logocinedata.svg" alt="Logo" class="logocentre">
         <h2>LE MEILLEUR OUTIL POUR LES PRODUCTEURS ET FANS DE CINÉMA</h2>
         <img src="COMPARER_DES_MILLIER_DE_FILMS.png" alt="Logo" class="mb-1 custom-img-size">
     </div>
@@ -91,7 +91,7 @@
     <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <img src="photoid.jpg" alt="Another Image Description" class="img-fluid">
+                <img src="photoid.jpg" alt="Another Image Description" class="img-fluid photo-id">
             </div>
             <div class="col-md-6">
                 <h3>Autre Titre de Section</h3>
@@ -107,7 +107,7 @@
                 <p>Voici le texte de cette section. Vous pouvez le modifier selon vos besoins.</p>
             </div>
             <div class="col-md-6">
-                <img src="photoid.jpg" alt="Image Description" class="img-fluid">
+                <img src="photoid.jpg" alt="Image Description" class= "img-fluid photo-id" >
             </div>
         </div>
     </div>
@@ -116,7 +116,7 @@
     <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <img src="photoid.jpg" alt="Another Image Description" class="img-fluid">
+                <img src="photoid.jpg" alt="Image Description" class="img-fluid photo-id">
             </div>
             <div class="col-md-6">
                 <h3>Autre Titre de Section</h3>
@@ -132,7 +132,8 @@
             <p>Voici le texte de cette section. Vous pouvez le modifier selon vos besoins.</p>
         </div>
         <div class="col-md-6">
-            <img src="photoid.jpg" alt="Image Description" class="img-fluid">
+            <img src="photoid.jpg" alt="Image Description" class="photo-id">
+
         </div>
     </div>
     </div>
